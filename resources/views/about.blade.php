@@ -1,0 +1,261 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Proyecto Fron-tend</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Kids Video Game Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- css -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--// css -->
+    <!-- font -->
+    <link
+        href='//fonts.googleapis.com/css?family=Josefin+Sans:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic'
+        rel='stylesheet' type='text/css'>
+    <link
+        href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+        rel='stylesheet' type='text/css'>
+    <!-- //font -->
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <!-- banner -->
+    <div class="sub-banner">
+        <!-- Navbar -->
+        <div class="forms ml-auto">
+
+        </div>
+		@include('menu')
+        <!--
+  <nav class="navbar navbar-default">
+   <div class="container">
+
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+      aria-expanded="false" aria-controls="navbar">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </button>
+     <a href="index.html">
+      <h1>Kids <img src="images/c1.png" alt=" " /> Game</h1>
+     </a>
+    </div>
+
+    <div id="navbar" class="navbar-collapse collapse">
+     <ul class="nav navbar-nav navbar-righ">
+
+     </ul>
+    </div>
+
+   </div>
+  </nav>
+
+ -->
+    </div>
+    <!-- banner -->
+
+    <!-- about-->
+    <div class="about-agileinfo" id="about">
+        <div class="container">
+            <h2>Acerca de</h2>
+            <div class="about-grids-w3-agileits">
+                <h3>Super Mario</h3>
+                <br>
+                <div class="col-md-6 about-grid-left-agileits-w3layouts">
+                    <p>es una serie de videojuegos de plataformas creados por la empresa desarrolladora Nintendo y
+                        protagonizados por su mascota, Mario.</p>
+                    <p>
+                        Los videojuegos de Super Mario siguen las aventuras del plomero Mario, por lo general en el
+                        ficticio Reino Champiñón.
+                        Al igual que en la mayoría de los videojuegos de plataformas, el jugador principalmente corre y
+                        salta a través de
+                        plataformas y sobre enemigos en distintos niveles temáticos. El primer título de la serie,
+                        «Super Mario Bros.» ,
+                        lanzado para el Nintendo Entertainment System en 1985, estableció conceptos y elementos de
+                        jugabilidad prevalecientes
+                        en casi todos los videojuegos de Super Mario desde entonces.
+                    </p>
+                    <br>
+                    <br>
+                    <p>
+                        La serie Super Mario es parte de la franquicia Mario. Esta incluye otros géneros de videojuegos
+                        y otros medios como películas,
+                        series de televisión, medios impresos y varios productos. Para septiembre del año 2015, se
+                        habían vendido más de 310 millones de
+                        copias de los videojuegos de la serie Super Mario, lo que la convierte en la serie de
+                        videojuegos más vendida de la historia.
+                    </p>
+                </div>
+                <div class="col-md-6 about-grid-right-w3-agile">
+                    <div class="grid-w3ls">
+                        <figure class="effect-zoe">
+                            <img src="images/about.jpg" alt=" " class="img-responsive" />
+                            <figcaption>
+                                <h3>Kids<span>Video</span>Game</h3>
+                                <p class="icon-links">
+                                    <a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
+                                    <a href="#"><span class="glyphicon glyphicon-eye-open"
+                                            aria-hidden="true"></span></a>
+                                    <a href="#"><span class="glyphicon glyphicon-paperclip"
+                                            aria-hidden="true"></span></a>
+                                </p>
+                                <p class="description">Suspendisse convallis malesuada libero, non rutrum arcu
+                                    pellentesque lacinia.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!-- //about -->
+
+
+
+    <!-- team -->
+
+    <div class="team-w3layouts">
+        <div class="container">
+            <h3>Nuestro equipo</h3>
+            <div class="w3l_team_grids-agile">
+                <div class="col-md-3 w3l_team_grid">
+                    <div class="view view-second">
+                        <img src="images/gal.jpg" alt=" " class="img-responsive" />
+                        <div class="mask"></div>
+                        <div class="content">
+                            <div class="w3l_social_icons w3l_social_icons1">
+                                <ul>
+                                    <li><a href="#" class="linkedin"></a></li>
+                                    <li><a href="#" class="google"></a></li>
+                                    <li><a href="#" class="twitter"></a></li>
+                                    <li><a href="#" class="facebook"></a></li>
+                                </ul>
+                            </div>
+                            <p>Estudiante de ingeniería de sistemas e informática UPB.</p>
+                        </div>
+                    </div>
+                    <h4>Juan Esteban Galeano</h4>
+                    <p>Games Designer</p>
+                </div>
+                <div class="col-md-3 w3l_team_grid">
+                    <div class="view view-second">
+                        <img src="images/Lu.png" alt=" " class="img-responsive" />
+                        <div class="mask"></div>
+                        <div class="content">
+                            <div class="w3l_social_icons w3l_social_icons1">
+                                <ul>
+                                    <li><a href="#" class="linkedin"></a></li>
+                                    <li><a href="#" class="google"></a></li>
+                                    <li><a href="#" class="twitter"></a></li>
+                                    <li><a href="#" class="facebook"></a></li>
+                                </ul>
+                            </div>
+                            <p>Estudiante de ingeniería de sistemas e informática UPB.</p>
+                        </div>
+                    </div>
+                    <h4>Luisa Álvares Bello</h4>
+                    <p>Games Designer</p>
+                </div>
+                <div class="col-md-3 w3l_team_grid">
+                    <div class="view view-second">
+                        <img src="images/ciro.png" alt=" " class="img-responsive" />
+                        <div class="mask"></div>
+                        <div class="content">
+                            <div class="w3l_social_icons w3l_social_icons1">
+                                <ul>
+                                    <li><a href="#" class="linkedin"></a></li>
+                                    <li><a href="#" class="google"></a></li>
+                                    <li><a href="#" class="twitter"></a></li>
+                                    <li><a href="#" class="facebook"></a></li>
+                                </ul>
+                            </div>
+                            <p>Estudiante de ingeniería de sistemas e informática UPB.</p>
+                        </div>
+                    </div>
+                    <h4>Mateo Agudelo Ciro</h4>
+                    <p>Games Designer</p>
+                </div>
+
+
+                <div class="col-md-3 w3l_team_grid">
+                    <div class="view view-second">
+                        <img src="images/xaca.png" alt=" " class="img-responsive" />
+                        <div class="mask"></div>
+                        <div class="content">
+                            <div class="w3l_social_icons w3l_social_icons1">
+                                <ul>
+                                    <li><a href="#" class="linkedin"></a></li>
+                                    <li><a href="#" class="google"></a></li>
+                                    <li><a href="#" class="twitter"></a></li>
+                                    <li><a href="#" class="facebook"></a></li>
+                                </ul>
+                            </div>
+                            <p>Docente de ingeniería de sistemas e informática UPB.</p>
+                        </div>
+                    </div>
+                    <h4>Andrés Bedoya</h4>
+                    <p>Games Designer</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- //team -->
+
+    <a href="https://wa.me/+573013160127" target="_blank">
+        <img src="images/wpp.png" id="btn_whatsapp" alt=""></img>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+
+                <div class="footer_contenedor">
+
+                    <div class="contenido_footer">
+                        <h4>Juan Galeano</h4>
+                        <a href="mailto:juan.galeanoh@upb.edu.co">juan.galeanoh@upb.edu.co</a>
+
+                    </div>
+
+                    <div class="contenido_footer">
+                        <h4>Luisa Álvarez Bello</h4>
+                        <a href="mailto:luisa.alvarezb@upb.edu.co">luisa.alvarezb@upb.edu.co</a>
+
+                    </div>
+
+                    <div class="contenido_footer">
+                        <h4>Mateo Agudelo Ciro</h4>
+                        <a href="mailto:mateo.agudeloc@upb.edu.co">mateo.agudeloc@upb.edu.co</a>
+                    </div>
+
+                </div>
+                <h2 class="titulo_final">&copy; Plataformas de programación empresarial</h2>
+
+            </div>
+
+        </div>
+        <!-- //footer -->
+</body>
+
+</html>

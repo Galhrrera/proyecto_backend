@@ -1,0 +1,121 @@
+<!--A Design by W3layouts 
+Author: W3layout
+Author URL: http://w3layouts.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Proyecto Fron-tend</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Kids Video Game Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- css -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/popup-box.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--// css -->
+	<!-- font -->
+	<link
+		href='//fonts.googleapis.com/css?family=Josefin+Sans:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic'
+		rel='stylesheet' type='text/css'>
+	<link
+		href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+		rel='stylesheet' type='text/css'>
+	<!-- //font -->
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+	<!-- banner -->
+	<div class="sub-banner">
+		@include('menu')
+		<!-- Navbar -->
+		<!--
+		<div class="forms ml-auto">
+
+		</div>
+		<nav class="navbar navbar-default">
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+						aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html">
+						<h1>Kids <img src="images/c1.png" alt=" " /> Game</h1>
+					</a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-righ">
+
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+	-->
+	</div>
+	<!-- banner -->
+
+	<!--game-->
+	<div class="trend-w3layouts centrar">
+		<div class="container_api">
+			<h2>API de Mario</h2>
+			<div class="col-md-3 service-grid-agileits ">
+
+				<a href="js/api_mario2/mario.html" type="submit" class="centrar btn_centrar">
+					SUPER MARIO BROSS
+					64
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+	<a href="https://wa.me/+573013160127" target="_blank">
+		<img src="images/wpp.png" id="btn_whatsapp" alt=""></img>
+
+		<footer>
+			<!--footer-->
+			<div class="footer">
+				<div class="container">
+
+					<div class="footer_contenedor">
+
+						<div class="contenido_footer">
+							<h4>Juan Galeano</h4>
+							<a href="mailto:juan.galeanoh@upb.edu.co">juan.galeanoh@upb.edu.co</a>
+
+						</div>
+
+						<div class="contenido_footer">
+							<h4>Luisa Álvarez Bello</h4>
+							<a href="mailto:luisa.alvarezb@upb.edu.co">luisa.alvarezb@upb.edu.co</a>
+	
+						</div>
+	
+						<div class="contenido_footer">
+							<h4>Mateo Agudelo Ciro</h4>
+							<a href="mailto:mateo.agudeloc@upb.edu.co">mateo.agudeloc@upb.edu.co</a>
+						</div>
+
+					</div>
+					<h2 class="titulo_final">&copy; Plataformas de programación empresarial</h2>
+				</div>
+			</div>
+		</footer>
+
+		<!-- //footer -->
+</body>
+
+</html>
