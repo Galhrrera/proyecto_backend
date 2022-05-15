@@ -115,7 +115,7 @@ function abrirPagina(evento) {
         location.href = paginas[pagina];
     }
     else {
-        alert("Esta seccion requiere inicio de sesion.");
+        //alert("Esta seccion requiere inicio de sesion.");
         //TODO: Personalizar con mensaje lightbox
     }
 }

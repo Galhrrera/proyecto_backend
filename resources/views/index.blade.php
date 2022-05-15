@@ -36,12 +36,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         rel='stylesheet' type='text/css'>
     <!-- //font -->
 
-    <script src="js/main.js"></script>
+    <!--<script src="js/main.js"></script>-->
+    <script src="{{URL::asset('js/main.js')}}"></script>
 
 </head>
 
 <body>
     <!-- Header -->
+    
     <div class="header">
         <!-- Navbar -->
 		@include('menu')

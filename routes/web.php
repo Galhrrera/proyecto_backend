@@ -13,12 +13,49 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+*/
+Route::get('/', function () {
+    return view('index');
+});
+
+Route::get('/index.html', function () {
+    return view('index');
+});
+
+Route::get('/about.html', function () {
+    return view('about');
+});
+
+Route::get('/contact.html', function () {
+    return view('contact');
+});
+
+Route::get('/news.html', function () {
+    return view('news');
+});
+
+Route::get('/single.html', function () {
+    return view('single');
+});
+
+Route::get('/games', function () {
+    return view('games');
+})->middleware(['auth'])->name('games');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
+
+Route::get('/register.html', function(){
+    return view('register');
+});
+
+Route::get('/login.html', function(){
+    return view('login');
+});
 
 require __DIR__.'/auth.php';
