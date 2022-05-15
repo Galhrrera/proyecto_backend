@@ -14,29 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 });
 
-Route::get('/index.html', function () {
-    return view('index');
-});
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
-Route::get('/about.html', function () {
-    return view('about');
-});
-
-Route::get('/contact.html', function () {
-    return view('contact');
-});
-
-Route::get('/login.html', function () {
-    return view('login');
-});
-
-Route::get('/news.html', function () {
-    return view('news');
-});
-
-Route::get('/register.html', function () {
-    return view('register');
-});
+require __DIR__.'/auth.php';
