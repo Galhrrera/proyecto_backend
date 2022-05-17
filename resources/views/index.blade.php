@@ -56,13 +56,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="fixed top-0 right-0 px-6 py-4 sm:block">
                 @auth
                     <!--<a href="{{ url('/index') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>-->
-                    <a href="{{ url('/index') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Index</a>
+                    <a href="{{ url('/games') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">GAMES</a>
                     
                 @else
-                    <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
+                    <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">LOGIN</a>
                     
                     @if (Route::has('register'))
-                        <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
+                        <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">REGISTER</a>
                         
                     @endif
                 @endauth
@@ -285,7 +285,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
     <!-- footer -->
-    <div class="footer">
+    @include('/footer')
+    <!--<div class="footer">
         <div class="container">
 
             <div class="footer_contenedor">
@@ -310,7 +311,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
             <h2 class="titulo_final">&copy; Plataformas de programación empresarial</h2>
         </div>
-    </div>
+    </div>-->
 
     <!-- //footer -->
 </body>

@@ -1,4 +1,20 @@
 <x-guest-layout>
+
+    <!-- banner -->
+    <div class="sub-banner">
+        @include('menu')
+    </div>
+
+    <!-- ventana emergente -->
+    <div id="ventana" class="ligthbox hidden">
+        <div class="contenido-ventana">
+            <span></span>
+            <h1></h1>
+            <p></p>
+            <button type="button" id="btn_cerrar_modal"></button>
+        </div>
+    </div>
+
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
@@ -56,4 +72,6 @@
             </div>
         </form>
     </x-auth-card>
+
+    @include('footer')
 </x-guest-layout>

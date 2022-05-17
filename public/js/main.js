@@ -20,7 +20,7 @@ let sesion_off = `
 <a href="register.html" class="btn">
 <span class="fa fa-pencil-square-o"></span> Registro</a>`;
 
-
+/*
 window.onload = function () {
     contenedor_menu = document.querySelector(".nav");
     contenedor_menu.innerHTML = menu_html;
@@ -43,7 +43,8 @@ window.onload = function () {
 
     asignarNavegacion();
 }
-
+*/
+/*
 function cambiarSesion(bandera) {
 
 
@@ -64,11 +65,14 @@ function cambiarSesion(bandera) {
         }
     }
 }
-
+*/
+/*
 function cerrarSesion() {
     let pagina_actual = location.pathname.split("/").pop();
     return (pagina_actual === paginas["item_3"]);
 }
+*/
+/*
 
 function asignarNavegacion() {
     menu_items.push(document.getElementById("item_1"));
@@ -94,10 +98,14 @@ function asignarNavegacion() {
         i.addEventListener("click", abrirPagina);
     }
 }
+*/
+/*
 
 function hideURLbar() {
     window.scrollTo(0, 1);
 }
+*/
+/*
 
 function abrirPagina(evento) {
 
@@ -119,3 +127,4 @@ function abrirPagina(evento) {
         //TODO: Personalizar con mensaje lightbox
     }
 }
+*/

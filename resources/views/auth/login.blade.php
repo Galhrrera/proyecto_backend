@@ -71,4 +71,5 @@
             </div>
         </form>
     </x-auth-card>
+    @include('footer')
 </x-guest-layout>
