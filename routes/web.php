@@ -22,25 +22,24 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/index.html', function () {
-    return view('index');
-});
 
-Route::get('/about.html', function () {
+Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/contact.html', function () {
+Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/news.html', function () {
+Route::get('/news', function () {
     return view('news');
 });
 
-Route::get('/single.html', function () {
+Route::get('/single', function () {
     return view('single');
 });
+
+
 
 Route::get('/games', function () {
     return view('games');
@@ -50,12 +49,16 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+/*
 Route::get('/register.html', function(){
     return view('register');
 });
+*/
 
+/*
 Route::get('/login.html', function(){
     return view('login');
 });
+*/
 
 require __DIR__.'/auth.php';

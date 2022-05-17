@@ -28,18 +28,18 @@ window.onload = function () {
 
 
 
-    cont_sesion = document.querySelector(".forms");
-    cambiarSesion(JSON.parse(localStorage.getItem("logeado")));
+    //cont_sesion = document.querySelector(".forms");
+    //cambiarSesion(JSON.parse(localStorage.getItem("logeado")));
 
-    if (iniciarLogin) {
+    //if (iniciarLogin) {
 
-        iniciarLogin();
-    }
+    //    iniciarLogin();
+    //}
 
-    if (iniciarRegistro) {
+    //if (iniciarRegistro) {
 
-        iniciarRegistro();
-    }
+    //    iniciarRegistro();
+    //}
 
     asignarNavegacion();
 }

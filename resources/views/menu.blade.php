@@ -19,7 +19,11 @@
 
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-righ">
-
+                <li class="hover-effect"><a href="/" id="item_1">Inicio</a></li>
+                <li class="hover-effect"><a href="/about" id="item_2">Acerca de</a></li>
+                <li class="hover-effect"><a href="/games" id="item_3">Juego - API</a></li>
+                <li class="hover-effect"><a href="/news" id="item_4">Novedades</a></li>
+                <li class="hover-effect"><a href="/contact" id="item_5">Contacto</a></li>
             </ul>
         </div>
 
