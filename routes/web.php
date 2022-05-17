@@ -39,7 +39,7 @@ Route::get('/news', function () {
     return view('news');
 });
 
-Route::get('/single', function () {
+Route::get('/single.html', function () {
     return view('single');
 });
 

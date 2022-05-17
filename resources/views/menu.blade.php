@@ -3,6 +3,8 @@
 </div>
 <nav class="navbar navbar-default">
     <div class="container">
+       
+        
 
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -12,8 +14,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="index.html">
-                <h1>Kids <img src="images/c1.png" alt=" " /> Game</h1>
+            <a href="/">
+                <h1>Mario <img src="images/mushroom.png" alt=" " /> Bros</h1>
             </a>
         </div>
 

@@ -1,9 +1,13 @@
 <x-guest-layout>
 
         <!-- banner -->
-        <div class="sub-banner">
+        <div class="header">
             @include('menu')
+            <div class="sub-banner">
+               
+            </div>
         </div>
+        
     
         <!-- ventana emergente -->
         <div id="ventana" class="ligthbox hidden">
