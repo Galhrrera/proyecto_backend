@@ -49,9 +49,12 @@ Route::get('/games', function () {
     return view('games');
 })->middleware(['auth'])->name('games');
 
+
+/*
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
+*/
 
 /*
 Route::get('/register.html', function(){
