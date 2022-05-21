@@ -38,6 +38,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       
     </div>
 
+
     <!-- ventana emergente -->
     <div id="ventana" class="ligthbox hidden">
         <div class="contenido-ventana">

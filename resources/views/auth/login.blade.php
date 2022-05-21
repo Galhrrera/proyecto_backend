@@ -2,9 +2,9 @@
 
         <!-- banner -->
         <div class="header">
-            @include('menu')
+           
             <div class="sub-banner">
-               
+                @include('menu') 
             </div>
         </div>
         

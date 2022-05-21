@@ -34,15 +34,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- banner -->
 	
 	<div class="sub-banner">
-		<form method="POST" action="{{ route('logout') }}">
-			@csrf
-	
-			<x-dropdown-link :href="route('logout')"
-					onclick="event.preventDefault();
-								this.closest('form').submit();">
-				{{ __('Log Out') }}
-			</x-dropdown-link>
-		</form>
+		<div class="login">
+			<form method="POST" action="{{ route('logout') }}">
+				@csrf
+		
+				<x-dropdown-link :href="route('logout')"
+						onclick="event.preventDefault();
+									this.closest('form').submit();">
+					{{ __('Log Out') }}
+				</x-dropdown-link>
+			</form>
+		</div>
 		@include('menu')
 		<!-- Navbar -->
 		<!--
